@@ -1,0 +1,75 @@
+/* 農曆 (Nongli) */
+
+/* table */
+.nl-calendar {
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nl-calendar td {
+  width: 66px;
+  height: 55px;
+  cursor: pointer;
+}
+
+.nl-calendar td:hover {
+  border-radius: 9px;
+  background-color: #ff6;
+}
+
+/* 周末 */
+.nl-calendar td:first-child,
+.nl-calendar td:last-child,
+.nl-weekdays th:first-child,
+.nl-weekdays th:last-child {
+  color: red;
+}
+
+.nl-title {
+  height: 40px;
+  font-size: 1.4em;
+  color: navy;
+}
+
+.nl-weekdays {
+  height: 36px;
+  font-size: 1.2em;
+  cursor: default;
+}
+
+.nl-weekdays th {
+  background-color: #dee;
+}
+
+.nl-weekdays th:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+.nl-weekdays th:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+.nl-other-month {
+  opacity: 0.2;
+}
+
+.nl-other-month:hover {
+  opacity: 0.4;
+}
+
+.nl-solar-date {
+  font-size: 1.6em;
+}
+
+.nl-first-lunar-day {
+  font-weight: bold;
+  text-shadow: 0.3em 0.3em 0.5em;
+}
+
+.nl-today {
+  border-radius: 9px;
+  background-color: #ffa;
+  border: 1px solid #ee9;
+}

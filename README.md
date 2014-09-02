@@ -1,4 +1,7 @@
-nongli
-======
+農曆 (Nongli)
+==============
 
-農曆
+A JavaScript library for the Chinese lunisolar calendar.
+
+JavaScript 農曆函式庫
+
